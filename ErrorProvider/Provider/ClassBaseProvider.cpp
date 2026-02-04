@@ -11,10 +11,10 @@ namespace MY
             std::cout << "ClassBaseProvider Construct_ClassBaseService" << std::endl;
             self->ConstructClassBase();
         }
-        virtual void Deconstruct_ClassBaseService(::ClassBase *self) override
+        virtual void Destruct_ClassBaseService(::ClassBase *self) override
         {
-            std::cout << "ClassBaseProvider Deconstruct_ClassBaseService" << std::endl;
-            self->~ClassBase();
+            std::cout << "ClassBaseProvider Destruct_ClassBaseService" << std::endl;
+            self->DestructClassBase();
         }
     };
 

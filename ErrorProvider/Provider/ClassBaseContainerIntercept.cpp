@@ -14,5 +14,5 @@ ClassBaseContainer::~ClassBaseContainer()
 {
     std::cout << "ClassBaseContainerIntercept ~ClassBaseContainer" << std::endl;
     auto service = GetServiceOrDefault<IClassBaseContainerService>();
-    service->Deconstruct_ClassBaseContainerService(this);
+    service->Destruct_ClassBaseContainerService(this);
 }

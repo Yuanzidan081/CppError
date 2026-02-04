@@ -12,6 +12,8 @@ public:
     void ConstructClassBaseContainer(int size);
     ~ClassBaseContainer();
 
+    void DestructClassBaseContainer();
+
 private:
     char *m_Buffer;
 };

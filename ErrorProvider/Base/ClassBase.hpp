@@ -13,6 +13,8 @@ public:
     void ConstructClassBase();
     ~ClassBase();
 
+void DestructClassBase();
+
 private:
     ClassBaseContainer m_classBaseContainer;
 };

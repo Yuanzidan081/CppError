@@ -14,5 +14,5 @@ ClassBase::~ClassBase()
 {
     std::cout << "ClassBaseIntercept ~ClassBase " << std::endl;
     auto service = GetServiceOrDefault<IClassBaseService>();
-    service->Deconstruct_ClassBaseService(this);
+    service->Destruct_ClassBaseService(this);
 }

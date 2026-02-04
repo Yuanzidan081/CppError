@@ -8,6 +8,6 @@ namespace MY
     public:
         virtual ~IClassBaseContainerService() = default;
         virtual void Construct_ClassBaseContainerService(::ClassBaseContainer *self, int size) = 0;
-        virtual void Deconstruct_ClassBaseContainerService(::ClassBaseContainer *self) = 0;
+        virtual void Destruct_ClassBaseContainerService(::ClassBaseContainer *self) = 0;
     };
 }
