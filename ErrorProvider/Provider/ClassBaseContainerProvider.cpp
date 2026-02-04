@@ -11,9 +11,9 @@ namespace MY
             std::cout << "ClassBaseContainerProvider Construct_ClassBaseContainerService" << std::endl;
             self->ConstructClassBaseContainer(size);
         }
-        virtual void Deconstruct_ClassBaseContainerService(::ClassBaseContainer *self) override
+        virtual void Destruct_ClassBaseContainerService(::ClassBaseContainer *self) override
         {
-            std::cout << "ClassBaseContainerProvider Deconstruct_ClassBaseContainerService" << std::endl;
+            std::cout << "ClassBaseContainerProvider Destruct_ClassBaseContainerService" << std::endl;
             self->~ClassBaseContainer();
         }
     };

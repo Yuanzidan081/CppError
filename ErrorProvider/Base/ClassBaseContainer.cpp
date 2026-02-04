@@ -9,13 +9,13 @@ ClassBaseContainer::ClassBaseContainer(int size)
 
 void ClassBaseContainer::ConstructClassBaseContainer(int size)
 {
-    std::cout << "Construct ClassBaseContainer" << std::endl;
+    std::cout << "ClassBaseContainer Construct" << std::endl;
     m_Buffer = new char[size];
 }
 
 ClassBaseContainer::~ClassBaseContainer()
 {
-    std::cout << "Deconstruct ClassbaseContainer" << std::endl;
+    std::cout << "ClassBaseContainer Destruct" << std::endl;
     if (m_Buffer != nullptr)
         delete[] m_Buffer;
 }

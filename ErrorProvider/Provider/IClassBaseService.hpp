@@ -8,6 +8,6 @@ namespace MY
     public:
         virtual ~IClassBaseService() = default;
         virtual void Construct_ClassBaseService(ClassBase *self) = 0;
-        virtual void Deconstruct_ClassBaseService(ClassBase *self) = 0;
+        virtual void Destruct_ClassBaseService(ClassBase *self) = 0;
     };
 }

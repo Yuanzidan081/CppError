@@ -12,5 +12,5 @@ void ClassBase::ConstructClassBase()
 
 ClassBase::~ClassBase()
 {
-    std::cout << "ClassBase Deconstruct" << std::endl;
+    std::cout << "ClassBase Destruct" << std::endl;
 }
