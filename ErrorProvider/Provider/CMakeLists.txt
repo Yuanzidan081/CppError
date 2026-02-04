@@ -1,5 +1,4 @@
 file(GLOB_RECURSE Provider_Src RELATIVE "${Root}/Provider" "*.cpp")
-message("Provider_Src are ${Provider_Src}")
 add_library(Provider SHARED ${Provider_Src})
 target_include_directories(Provider PRIVATE ${Root})
 target_link_libraries(Provider Base)
